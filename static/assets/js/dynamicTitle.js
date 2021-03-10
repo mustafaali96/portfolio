@@ -1,5 +1,4 @@
 
-
 window.onload = function () {
   const favicon = document.getElementById("favicon");
   let pageTitle = document.title;
@@ -20,7 +19,7 @@ window.onload = function () {
   document.addEventListener("visibilitychange", function (e) {
     if (!document.hidden) {
       document.title = pageTitle;
-      favicon.href = "./assets/images/dp_male.svg";
+      favicon.href = "./static/assets/images/dp_male.svg";
     }
   });
 
@@ -28,10 +27,10 @@ window.onload = function () {
     blinkEvent = setInterval(() => {
       if (document.title === attentionMessage) {
         document.title = pageTitle;
-        favicon.href = "./assets/images/dp_male.svg";
+        favicon.href = "./static/assets/images/dp_male.svg";
       } else {
         document.title = attentionMessage;
-        favicon.href = "./assets/images/folded.png";
+        favicon.href = "./static/assets/images/folded.png";
       }
     }, 1000);
   }
