@@ -34,7 +34,7 @@ if(mybutton) {
 let header = $(`
 <nav class="fixed-top black">
 <div class="nav-wrapper">
-    <a href="#!" class="brand-logo"><img src="assets/images/mustafa.gif"></a>
+    <a href="#!" class="brand-logo"><img src="static/assets/images/mustafa.gif"></a>
     <a href="#" data-target="mobile-demo" class="white-text sidenav-trigger"><i
             class="material-icons">menu</i></a>
     <ul class="right hide-on-med-and-down">
