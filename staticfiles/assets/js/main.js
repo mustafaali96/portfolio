@@ -38,13 +38,12 @@ let header = $(`
     <a href="#" data-target="mobile-demo" class="white-text sidenav-trigger"><i
             class="material-icons">menu</i></a>
     <ul class="right hide-on-med-and-down">
-        <li><a class="white-text" href="index.html">Home</a></li>
-        <li><a class="white-text" href="experience.html">Experience</a></li>
-        <li><a class="white-text" href="projects.html">Projects</a></li>
-        <li><a class="white-text" href="research.html">Research</a></li>
-        <li><a class="white-text" href="education.html">Education</a></li>
-        <li><a class="white-text" href="skill.html">Skills</a></li>
-        <li><a class="white-text" href="index.html">Blog</a></li>
+        <li><a class="white-text" href="../">Home</a></li>
+        <li><a class="white-text" href="../Experience">Experience</a></li>
+        <li><a class="white-text" href="../Projects">Projects</a></li>
+        <li><a class="white-text" href="../Certification">Certification</a></li>
+        <li><a class="white-text" href="../Research">Research</a></li>
+        <li><a class="white-text" href="../Education">Education</a></li>
         <!--TOGGLE FOR LIGHT/DARK MODE-->
         <li>
           <label for="switch-1" class="theme-switch">
@@ -67,13 +66,12 @@ let header = $(`
 <!--Side Nav Bar -->
 <ul class="sidenav" id="mobile-demo">
 <li><a class="sidenav-close" href="#!"><i class="material-icons">close</i></a></li>
-<li><a href="index.html">Home</a></li>
-<li><a href="experience.html">Experience</a></li>
-<li><a href="projects.html">Projects</a></li>
-<li><a href="research.html">Research</a></li>
-<li><a href="education.html">Education</a></li>
-<li><a href="skill.html">Skills</a></li>
-<li><a href="index.html">Blog</a></li>
+<li><a href="../">Home</a></li>
+<li><a href="../Experience">Experience</a></li>
+<li><a href="../Projects">Projects</a></li>
+<li><a href="../Certification">Certification</a></li>
+<li><a href="../Research">Research</a></li>
+<li><a href="../Education">Education</a></li>
 
 <!--TOGGLE FOR LIGHT/DARK MODE-->
         <li>
