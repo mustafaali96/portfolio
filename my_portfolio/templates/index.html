@@ -232,14 +232,17 @@
     <!-- Fetching our Google Tag Manager -->
 
     <!-- Chatbot-->
-  <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
-  <df-messenger
-    chat-icon="https:&#x2F;&#x2F;storage.googleapis.com&#x2F;cloudprod-apiai&#x2F;4e549848-762a-4205-9232-834bca96e819_x.png"
-    intent="WELCOME"
-    chat-title="AI-Croft"
-    agent-id="24afd0cc-4806-4765-a31e-fa55bf0163e5"
-    language-code="en"
-  ></df-messenger>
+<section class="chatbot">
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+    <df-messenger
+        chat-icon="https:&#x2F;&#x2F;storage.googleapis.com&#x2F;cloudprod-apiai&#x2F;4e549848-762a-4205-9232-834bca96e819_x.png"
+        intent="WELCOME"
+        chat-title="AI-Croft"
+        agent-id="24afd0cc-4806-4765-a31e-fa55bf0163e5"
+        language-code="en"
+        wait-open=True
+    ></df-messenger>
+    </section>
 
     <!--JavaScript at end of body for optimized loading-->
     <script src="{% static '/assets/js/app.js' %}"></script>

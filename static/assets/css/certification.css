@@ -14,6 +14,7 @@ html[data-theme = 'dark']
   --border:none;
 }
 
+/* -----Chatbot Section CSS----- */
 .chatbot {
   --df-messenger-bot-message: #878fac;
   --df-messenger-button-titlebar-color: #49d1fa;
