@@ -139,31 +139,67 @@ document.addEventListener("DOMContentLoaded", showCards);
 const bagdes = document.querySelector(".badges");
 const badgesection = [
   {
-    title: "Google Developer Essentials",
-    image: "../static/assets/images/certification-page/badge1.png",
-    description: "Earned May 20, 2020",
+    title: "Python for Data Science",
+    image: "../static/assets/images/certification-page/badge-Python_101_Data_Science.png",
+    description: "Earned Aug 15, 2019",
+    link: "https://www.youracclaim.com/badges/62017a6f-2dd6-4ff6-a615-55d3230ad3ff",
   },
   {
-    title: "VM Migration",
-    image: "../static/assets/images/certification-page/badge2.png",
-    description: "Earned June 20, 2020",
+    title: "Karachi.AI Meetup X : Honorable Speaker",
+    image: "../static/assets/images/certification-page/badge-Karachi-AI-Association-of-AppliedAI-Practitioners-Karachi-AI-Meetup-X-Honorable-Speaker-2020-08-22.png",
+    description: "Earned Aug 21, 2020",
+    link: "https://api.au.badgr.io/public/assertions/euJWUoUlTkSqcjarrXpKRg?identity__email=ssuet.se2016%40gmail.com",
   },
   {
-    title: "G Suite Essentials",
-    image: "../static/assets/images/certification-page/badge3.png",
-    description: "Earned July 20, 2020",
+    title: "Hackmakers DigitalDefence 2020",
+    image: "../static/assets/images/certification-page/badge-Hackmakers-Hackmakers-DigitalDefence-2020-Participant-Certificate-2020-12-08.png",
+    description: "Earned Dec 7, 2020",
+    link: "https://api.au.badgr.io/public/assertions/FYMH-tZ7RX6UMJoA-_qStg?identity__email=engr.mustafa.ali.mir%40gmail.com",
+  },
+  {
+    title: "BigQuery Basics for Data Analysts",
+    image: "../static/assets/images/certification-page/badge-BigQuery-Basics-for-Data-Analysts.png",
+    description: "Earned Sep 27, 2020",
+    link: "https://www.qwiklabs.com/public_profiles/e29674af-f3fe-4a3b-b49c-d0895148e781",
+  },
+  {
+    title: "Intermediate ML TensorFlow on GCP",
+    image: "../static/assets/images/certification-page/badge-Intermediate-ML-TensorFlow-on-GCP.png",
+    description: "Earned Sep 29, 2020",
+    link: "https://www.qwiklabs.com/public_profiles/e29674af-f3fe-4a3b-b49c-d0895148e781",
+  },
+  {
+    title: "NCAA® March Madness® Bracketology with Google Cloud",
+    image: "../static/assets/images/certification-page/badge-NCAA-March-Madness-Bracketology-with-Google-Cloud.png",
+    description: "Earned Sep 27, 2020",
+    link: "https://www.qwiklabs.com/public_profiles/e29674af-f3fe-4a3b-b49c-d0895148e781",
+  },
+  {
+    title: "Intro to ML Image Processing",
+    image: "../static/assets/images/certification-page/badgr-Intro-to-ML-Image-Processing.png",
+    description: "Earned Oct 9, 2020",
+    link: "https://www.qwiklabs.com/public_profiles/e29674af-f3fe-4a3b-b49c-d0895148e781",
+  },
+  {
+    title: "Intro to ML Language Processing",
+    image: "../static/assets/images/certification-page/badge-Intro-to-ML-Language-Processing.png",
+    description: "Earned Sep 25, 2020",
+    link: "https://www.qwiklabs.com/public_profiles/e29674af-f3fe-4a3b-b49c-d0895148e781",
   },
 ];
 
 const showCards1 = () => {
   let output = "";
   badgesection.forEach(
-    ({ title, image, description }) =>
+    ({ title, image, description, link }) =>
     (output += `       
       <div class="col-lg-4 col-md-6 p-2" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="600"> 
         <img class="img-fluid d-block mb-3 mx-auto hvr-grow" src="${image}" alt="Card image cap" width="200">
           <div class="text-center font-weight-bolder" style="font-size: 1.3em;">${title}</div>
           <div class="text-center text-muted font-weight-bolder p-2">${description}</div>
+          <div class="text-center font-weight-bolder" style="box-sizing: content-box; display: flex; align-items: center; justify-content: center; margin: 0; font-size:14px; font-weight: bold; width: 48px; height: 16px; border-radius: 4px; border: solid 1px black; text-decoration: none; margin: 16px 0; color: black;">
+            <a href="${link}" target="_blank">Verify</a>
+          </div>
       </div>`)
   );
   bagdes.innerHTML = output;
