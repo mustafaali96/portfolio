@@ -10,8 +10,8 @@
     
     <meta name="robots" content="noindex,nofollow">
     <title>Got Lost!</title>
-    <link rel="stylesheet" type="text/css" href="./assets/css/404.css">
-    <script defer src="assets\js\dynamicTitle.js"></script>
+    <link rel="stylesheet" type="text/css" href="{% static 'assets/css/404.css' %}">
+    <script defer src="{% static 'assets\js\dynamicTitle.js' %}"></script>
 </head>
 
 <body>
@@ -150,12 +150,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="number">4</div>
             </div>
             <div class="subtitle">Oops. Looks like you took a wrong turn.</div>
             <br>
             <br>
-            <a class="button" href="index.html">Go back</a></div>
+            <a class="button" href="{% url 'home' %}">Go back</a></div>
     </div>
     </section>
 </body></html>

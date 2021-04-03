@@ -151,6 +151,12 @@ const badgesection = [
     link: "https://api.au.badgr.io/public/assertions/euJWUoUlTkSqcjarrXpKRg?identity__email=ssuet.se2016%40gmail.com",
   },
   {
+    title: "Karachi.AI | Certified Data Analyst (FAST-NU)",
+    image: "../static/assets/images/certification-page/Karachi.AI - Association of Applied AI Practitioners - Karachi.AI  Certified Data Analyst (FAST-NU) - 2021-01-31.png",
+    description: "Earned Jan 31, 2021",
+    link: "https://api.au.badgr.io/public/assertions/UFCBj9iaSDqi84wRU3OmjA?identity__email=ssuet.se2016%40gmail.com",
+  },
+  {
     title: "Hackmakers DigitalDefence 2020",
     image: "../static/assets/images/certification-page/badge-Hackmakers-Hackmakers-DigitalDefence-2020-Participant-Certificate-2020-12-08.png",
     description: "Earned Dec 7, 2020",
