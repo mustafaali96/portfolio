@@ -4,6 +4,13 @@
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
+    title: "Data Engineer",
+    cardImage: "../static/assets/images/experience-page/Royal-Cyber-Logo.svg",
+    place: "Royal Cyber Inc.",
+    time: "(Jul, 2020 - present)",
+    desp: "<li>Creating Big Query data pipelines with Cloud Dataflow.</li> <li>Cloud Composer / Apache Airflow.</li>",
+  },
+  {
     title: "Python Developer",
     cardImage: "../static/assets/images/experience-page/ast.jpg",
     place: "All Star Technology",

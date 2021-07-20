@@ -4,10 +4,17 @@
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
+    title: "Data Engineer",
+    cardImage: "../static/assets/images/experience-page/Royal-Cyber-Logo.svg",
+    place: "Royal Cyber Inc.",
+    time: "(Jul, 2020 - present)",
+    desp: "<li>Creating Big Query data pipelines with Cloud Dataflow.</li> <li>Cloud Composer / Apache Airflow.</li>"
+  },
+  {
     title: "Python Developer",
     cardImage: "../static/assets/images/experience-page/ast.jpg",
     place: "All Star Technology",
-    time: "(Dec, 2020 - present)",
+    time: "(Dec, 2020 - Jun, 2021)",
     desp: "<li>Developed Machine Learning model for Project Management Tool to predict resources for upcoming projects.</li> <li>Integrate applications with third-party web services.</li> <li>Created API endpoint to send/receive data thru web server.</li>",
   },
   {
