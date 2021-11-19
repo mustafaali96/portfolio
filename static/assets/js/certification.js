@@ -139,10 +139,10 @@ document.addEventListener("DOMContentLoaded", showCards);
 const bagdes = document.querySelector(".badges");
 const badgesection = [
   {
-    title: "Python for Data Science",
-    image: "../static/assets/images/certification-page/badge-Python_101_Data_Science.png",
-    description: "Earned Aug 15, 2019",
-    link: "https://www.youracclaim.com/badges/62017a6f-2dd6-4ff6-a615-55d3230ad3ff",
+    title: "Google Cloud Certified Data Engineer",
+    image: "../static/assets/images/certification-page/Data Engineer Badge.png",
+    description: "Earned Sep 15, 2021",
+    link: "https://www.credential.net/5dc11c32-24bd-469b-86a0-d9038c151a4a",
   },
   {
     title: "Karachi.AI Meetup X : Honorable Speaker",
@@ -155,6 +155,12 @@ const badgesection = [
     image: "../static/assets/images/certification-page/Karachi.AI - Association of Applied AI Practitioners - Karachi.AI  Certified Data Analyst (FAST-NU) - 2021-01-31.png",
     description: "Earned Jan 31, 2021",
     link: "https://api.au.badgr.io/public/assertions/UFCBj9iaSDqi84wRU3OmjA?identity__email=ssuet.se2016%40gmail.com",
+  },
+  {
+    title: "Python for Data Science",
+    image: "../static/assets/images/certification-page/badge-Python_101_Data_Science.png",
+    description: "Earned Aug 15, 2019",
+    link: "https://www.youracclaim.com/badges/62017a6f-2dd6-4ff6-a615-55d3230ad3ff",
   },
   {
     title: "Hackmakers DigitalDefence 2020",
