@@ -47,7 +47,7 @@ const moocscards = [
   {
     title: "Art and Science of Machine Learning",
     cardImage: "../static/assets/images/certification-page/online/coursera1.png",
-    moocLink: "coursera.org/verify/YCF43KQ75P5T",
+    moocLink: "https://www.coursera.org/account/accomplishments/verify/YCF43KQ75P5T",
   },
   {
     title: "Feature Engineering",
@@ -71,7 +71,7 @@ const moocscards = [
   },
   {
     title: "Python 101 for Data Science",
-    cardImage: "../static/assets/images/certification-page/online/udacity_logo.png",
+    cardImage: "../static/assets/images/certification-page/online/Python-101-for-Data-Science.png",
     moocLink: "https://courses.cognitiveclass.ai/certificates/87a3e16f302141bb86a5e3e8797f0a0a",
   },
   {
@@ -101,22 +101,22 @@ const moocscards = [
   },
   {
     title: "A Gentle Introduction to Deep Learning Using Keras",
-    cardImage: "../static/assets/images/certification-page/online/udacity_logo.png",
+    cardImage: "../static/assets/images/certification-page/online/ A-Gentle-Introduction-to-Deep-Learning-Using-Keras.jpg",
     moocLink: "http://ude.my/UC-UFRT671L",
   },
   {
     title: "Python Programming Tutorials For Beginners",
-    cardImage: "../static/assets/images/certification-page/online/udacity_logo.png",
+    cardImage: "../static/assets/images/certification-page/online/Python-Programming-Tutorials-For-Beginners.png",
     moocLink: "https://du5jhqks4kn0y.cloudfront.net/5bc5c5844face4006c41f14a/certificates/5bdf07cae1e91d006a033065_cerf.pdf",
   },
   {
     title: "Making Chatbot & Voice Apps (with Dialogflow v1)",
-    cardImage: "../static/assets/images/certification-page/online/udacity_logo.png",
+    cardImage: "../static/assets/images/certification-page/online/Making-Chatbot-and-Voice-Apps.jpg",
     moocLink: "https://www.udemy.com/certificate/UC-MZKTS13X/",
   },
   {
     title: "Elements of AI",
-    cardImage: "../static/assets/images/certification-page/online/udacity_logo.png",
+    cardImage: "../static/assets/images/certification-page/online/certificate-elements-of-ai.png",
     moocLink: "https://certificates.mooc.fi/validate/si51qe1sbmm",
   },
 ];
