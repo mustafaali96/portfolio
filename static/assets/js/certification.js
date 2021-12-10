@@ -16,57 +16,57 @@ const moocscards = [
   },
   {
     title: "Building Batch Data Pipelines on GCP",
-    cardImage: "../static/assets/images/certification-page/online/coursera1.png",
+    cardImage: "../static/assets/images/certification-page/online/Building-Batch-Data-Pipelines-on-GCP.png",
     moocLink: "https://coursera.org/share/2e3d025101b03752cde253e11dc11aea",
   },
   {
     title: "Building Resilient Streaming Analytics Systems on GCP",
-    cardImage: "../static/assets/images/certification-page/online/udacity_logo.png",
+    cardImage: "../static/assets/images/certification-page/online/Building-Resilient-Streaming-Analytics-Systems-on-GCP.png",
     moocLink: "https://coursera.org/share/33dcbf19c21190834d402f98c1765389",
   },
   {
     title: "Google Cloud Platform Big Data and Machine Learning Fundamentals",
-    cardImage: "../static/assets/images/certification-page/online/udacity_logo.png",
+    cardImage: "../static/assets/images/certification-page/online/Google-Cloud-Big-Data-and-Machine-Learning-Fundamentals.png",
     moocLink: "https://coursera.org/share/cd713bc991eea9f149aa7e043e912958",
   },
   {
     title: "Modernizing Data Lakes and Data Warehouses with GCP",
-    cardImage: "../static/assets/images/certification-page/online/udacity_logo.png",
+    cardImage: "../static/assets/images/certification-page/online/Modernizing-Data-Lakes-and-Data-Warehouses-with-GCP.png",
     moocLink: "https://coursera.org/share/ccaaf9ea79a13a586441f6a672bf93ae",
   },
   {
     title: "Smart Analytics, Machine Learning, and AI on GCP",
-    cardImage: "../static/assets/images/certification-page/online/udemy.png",
+    cardImage: "../static/assets/images/certification-page/online/Smart-Analytics-Machine-Learning-and-AI-on-GCP.png",
     moocLink: "https://coursera.org/share/f17e4a0293e9ca58a894724af150527e",
   },
   {
     title: "Device-based Models with TensorFlow Lite",
-    cardImage: "../static/assets/images/certification-page/online/EdX.png",
+    cardImage: "../static/assets/images/certification-page/online/Device-based-Models-with-TensorFlow-Lite.png",
     moocLink: "https://coursera.org/share/4b20e6c355bee768290b43e2dfa58aa7",
   },
   {
     title: "Art and Science of Machine Learning",
-    cardImage: "../static/assets/images/certification-page/online/coursera1.png",
+    cardImage: "../static/assets/images/certification-page/online/Art-and-Science-of-Machine-Learning.png",
     moocLink: "https://www.coursera.org/account/accomplishments/verify/YCF43KQ75P5T",
   },
   {
     title: "Feature Engineering",
-    cardImage: "../static/assets/images/certification-page/online/coursera1.png",
+    cardImage: "../static/assets/images/certification-page/online/Feature-Engineering.png",
     moocLink: "http://coursera.org/verify/22SH5ME9HWBA",
   },
   {
     title: "Accelerating Deep Learning with GPU",
-    cardImage: "../static/assets/images/certification-page/online/udemy.png",
+    cardImage: "../static/assets/images/certification-page/online/Accelerating-Deep-Learning-with-GPU.png",
     moocLink: "https://courses.cognitiveclass.ai/certificates/892748a056f7484f8f9f8f46572aad12",
   },
   {
     title: "Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning",
-    cardImage: "../static/assets/images/certification-page/online/udacity_logo.png",
+    cardImage: "../static/assets/images/certification-page/online/Introduction-to-TensorFlow-for-Artificial-Intelligence-Machine-Learning-and-Deep-Learning.png",
     moocLink: "https://www.coursera.org/account/accomplishments/certificate/XBLRWHEGUXNM",
   },
   {
     title: "Launching into Machine Learning",
-    cardImage: "../static/assets/images/certification-page/online/udacity_logo.png",
+    cardImage: "../static/assets/images/certification-page/online/Launching-into-Machine-Learning.png",
     moocLink: "https://www.coursera.org/account/accomplishments/certificate/6MC5V2KC8PZ3",
   },
   {
@@ -76,32 +76,32 @@ const moocscards = [
   },
   {
     title: "Python Data Structures",
-    cardImage: "../static/assets/images/certification-page/online/udacity_logo.png",
+    cardImage: "../static/assets/images/certification-page/online/Python-Data-Structures.png",
     moocLink: "https://www.coursera.org/account/accomplishments/certificate/9PQECHSR2FVF",
   },
   {
     title: "How Google does Machine Learning",
-    cardImage: "../static/assets/images/certification-page/online/udacity_logo.png",
+    cardImage: "../static/assets/images/certification-page/online/How-Google-does-Machine-Learning.png",
     moocLink: "https://www.coursera.org/account/accomplishments/certificate/52A2QZK2CDEW",
   },
   {
     title: "Intro to TensorFlow",
-    cardImage: "../static/assets/images/certification-page/online/udacity_logo.png",
+    cardImage: "../static/assets/images/certification-page/online/Introduction-to-TensorFlow.png",
     moocLink: "https://www.coursera.org/account/accomplishments/certificate/KVTCPUF2KFAZ",
   },
   {
     title: "Programming for Everybody (Getting Started with Python)",
-    cardImage: "../static/assets/images/certification-page/online/udacity_logo.png",
+    cardImage: "../static/assets/images/certification-page/online/Programming-for-Everybody.png",
     moocLink: "https://www.coursera.org/account/accomplishments/verify/GGYFM6LT3MEZ",
   },
   {
     title: "AI For Everyone",
-    cardImage: "../static/assets/images/certification-page/online/udacity_logo.png",
+    cardImage: "../static/assets/images/certification-page/online/AI-For-Everyone.png",
     moocLink: "https://www.coursera.org/account/accomplishments/verify/EHFVQ9SS25DF",
   },
   {
     title: "A Gentle Introduction to Deep Learning Using Keras",
-    cardImage: "../static/assets/images/certification-page/online/ A-Gentle-Introduction-to-Deep-Learning-Using-Keras.jpg",
+    cardImage: "../static/assets/images/certification-page/online/A-Gentle-Introduction-to-Deep-Learning-Using-Keras.jpg",
     moocLink: "http://ude.my/UC-UFRT671L",
   },
   {
