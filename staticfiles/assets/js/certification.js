@@ -5,64 +5,119 @@ AOS.init();
 const moocs = document.querySelector(".moocs");
 const moocscards = [
   {
-    title: "Data Science",
-    cardImage: "../static/assets/images/certification-page/coursera1.png",
-    moocLink: "https://www.coursera.org/browse/data-science",
+    title: "Introduction to Machine Learning in Production",
+    cardImage: "../static/assets/images/certification-page/online/Introduction-to-Machine-Learning-in-Production.png",
+    moocLink: "https://www.coursera.org/account/accomplishments/certificate/CR72XJLHDRYW",
   },
   {
-    title: "Cryptography",
-    cardImage: "../static/assets/images/certification-page/udemy.png",
-    moocLink: "https://www.udemy.com/course/cryptography-for-beginners/",
+    title: "Introduction to Machine Learning",
+    cardImage: "../static/assets/images/certification-page/online/Introduction-to-Machine-Learning.png",
+    moocLink: "https://verified.cv/en/verify/047942144106",
   },
   {
-    title: "Machine Learning",
-    cardImage: "../static/assets/images/certification-page/coursera1.png",
-    moocLink: "https://www.coursera.org/learn/machine-learning",
+    title: "Building Batch Data Pipelines on GCP",
+    cardImage: "../static/assets/images/certification-page/online/Building-Batch-Data-Pipelines-on-GCP.png",
+    moocLink: "https://coursera.org/share/2e3d025101b03752cde253e11dc11aea",
   },
   {
-    title: "Introduction to HTML 5",
-    cardImage: "../static/assets/images/certification-page/udacity_logo.png",
-    moocLink: "https://www.udacity.com/course/intro-to-html-and-css--ud001",
+    title: "Building Resilient Streaming Analytics Systems on GCP",
+    cardImage: "../static/assets/images/certification-page/online/Building-Resilient-Streaming-Analytics-Systems-on-GCP.png",
+    moocLink: "https://coursera.org/share/33dcbf19c21190834d402f98c1765389",
   },
   {
-    title: "Introduction to CSS 3",
-    cardImage: "../static/assets/images/certification-page/udacity_logo.png",
-    moocLink: "https://www.udacity.com/course/intro-to-html-and-css--ud001",
+    title: "Google Cloud Platform Big Data and Machine Learning Fundamentals",
+    cardImage: "../static/assets/images/certification-page/online/Google-Cloud-Big-Data-and-Machine-Learning-Fundamentals.png",
+    moocLink: "https://coursera.org/share/cd713bc991eea9f149aa7e043e912958",
   },
   {
-    title: "Javascript",
-    cardImage: "../static/assets/images/certification-page/udacity_logo.png",
-    moocLink: "https://www.udacity.com/course/intro-to-javascript--ud803",
+    title: "Modernizing Data Lakes and Data Warehouses with GCP",
+    cardImage: "../static/assets/images/certification-page/online/Modernizing-Data-Lakes-and-Data-Warehouses-with-GCP.png",
+    moocLink: "https://coursera.org/share/ccaaf9ea79a13a586441f6a672bf93ae",
   },
   {
-    title: "Bootstrap 4",
-    cardImage: "../static/assets/images/certification-page/udemy.png",
-    moocLink: "https://www.udemy.com/course/bootstrap-4-tutorials/",
+    title: "Smart Analytics, Machine Learning, and AI on GCP",
+    cardImage: "../static/assets/images/certification-page/online/Smart-Analytics-Machine-Learning-and-AI-on-GCP.png",
+    moocLink: "https://coursera.org/share/f17e4a0293e9ca58a894724af150527e",
   },
   {
-    title: "Intro to React",
-    cardImage: "../static/assets/images/certification-page/EdX.png",
-    moocLink: "https://www.edx.org/learn/reactjs",
+    title: "Device-based Models with TensorFlow Lite",
+    cardImage: "../static/assets/images/certification-page/online/Device-based-Models-with-TensorFlow-Lite.png",
+    moocLink: "https://coursera.org/share/4b20e6c355bee768290b43e2dfa58aa7",
   },
   {
-    title: "Intro to React Native",
-    cardImage: "../static/assets/images/certification-page/coursera1.png",
-    moocLink: "https://www.coursera.org/lecture/react-native/introduction-to-react-native-Eax0D",
+    title: "Art and Science of Machine Learning",
+    cardImage: "../static/assets/images/certification-page/online/Art-and-Science-of-Machine-Learning.png",
+    moocLink: "https://www.coursera.org/account/accomplishments/verify/YCF43KQ75P5T",
   },
   {
-    title: "NodeJS, Express and MongoDB",
-    cardImage: "../static/assets/images/certification-page/coursera1.png",
-    moocLink: "https://www.coursera.org/learn/server-side-nodejs",
+    title: "Feature Engineering",
+    cardImage: "../static/assets/images/certification-page/online/Feature-Engineering.png",
+    moocLink: "http://coursera.org/verify/22SH5ME9HWBA",
   },
   {
-    title: "XML-AJAX",
-    cardImage: "../static/assets/images/certification-page/udemy.png",
-    moocLink: "https://www.udemy.com/course/xml-from-beginner-to-expert/",
+    title: "Accelerating Deep Learning with GPU",
+    cardImage: "../static/assets/images/certification-page/online/Accelerating-Deep-Learning-with-GPU.png",
+    moocLink: "https://courses.cognitiveclass.ai/certificates/892748a056f7484f8f9f8f46572aad12",
   },
   {
-    title: "Data Structures & Algorithms",
-    cardImage: "../static/assets/images/certification-page/udacity_logo.png",
-    moocLink: "https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256",
+    title: "Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning",
+    cardImage: "../static/assets/images/certification-page/online/Introduction-to-TensorFlow-for-Artificial-Intelligence-Machine-Learning-and-Deep-Learning.png",
+    moocLink: "https://www.coursera.org/account/accomplishments/certificate/XBLRWHEGUXNM",
+  },
+  {
+    title: "Launching into Machine Learning",
+    cardImage: "../static/assets/images/certification-page/online/Launching-into-Machine-Learning.png",
+    moocLink: "https://www.coursera.org/account/accomplishments/certificate/6MC5V2KC8PZ3",
+  },
+  {
+    title: "Python 101 for Data Science",
+    cardImage: "../static/assets/images/certification-page/online/Python-101-for-Data-Science.png",
+    moocLink: "https://courses.cognitiveclass.ai/certificates/87a3e16f302141bb86a5e3e8797f0a0a",
+  },
+  {
+    title: "Python Data Structures",
+    cardImage: "../static/assets/images/certification-page/online/Python-Data-Structures.png",
+    moocLink: "https://www.coursera.org/account/accomplishments/certificate/9PQECHSR2FVF",
+  },
+  {
+    title: "How Google does Machine Learning",
+    cardImage: "../static/assets/images/certification-page/online/How-Google-does-Machine-Learning.png",
+    moocLink: "https://www.coursera.org/account/accomplishments/certificate/52A2QZK2CDEW",
+  },
+  {
+    title: "Intro to TensorFlow",
+    cardImage: "../static/assets/images/certification-page/online/Introduction-to-TensorFlow.png",
+    moocLink: "https://www.coursera.org/account/accomplishments/certificate/KVTCPUF2KFAZ",
+  },
+  {
+    title: "Programming for Everybody (Getting Started with Python)",
+    cardImage: "../static/assets/images/certification-page/online/Programming-for-Everybody.png",
+    moocLink: "https://www.coursera.org/account/accomplishments/verify/GGYFM6LT3MEZ",
+  },
+  {
+    title: "AI For Everyone",
+    cardImage: "../static/assets/images/certification-page/online/AI-For-Everyone.png",
+    moocLink: "https://www.coursera.org/account/accomplishments/verify/EHFVQ9SS25DF",
+  },
+  {
+    title: "A Gentle Introduction to Deep Learning Using Keras",
+    cardImage: "../static/assets/images/certification-page/online/A-Gentle-Introduction-to-Deep-Learning-Using-Keras.jpg",
+    moocLink: "http://ude.my/UC-UFRT671L",
+  },
+  {
+    title: "Python Programming Tutorials For Beginners",
+    cardImage: "../static/assets/images/certification-page/online/Python-Programming-Tutorials-For-Beginners.png",
+    moocLink: "https://du5jhqks4kn0y.cloudfront.net/5bc5c5844face4006c41f14a/certificates/5bdf07cae1e91d006a033065_cerf.pdf",
+  },
+  {
+    title: "Making Chatbot & Voice Apps (with Dialogflow v1)",
+    cardImage: "../static/assets/images/certification-page/online/Making-Chatbot-and-Voice-Apps.jpg",
+    moocLink: "https://www.udemy.com/certificate/UC-MZKTS13X/",
+  },
+  {
+    title: "Elements of AI",
+    cardImage: "../static/assets/images/certification-page/online/certificate-elements-of-ai.png",
+    moocLink: "https://certificates.mooc.fi/validate/si51qe1sbmm",
   },
 ];
 
@@ -119,7 +174,7 @@ const showCards = () => {
                   <div class="content-overlay"></div>
                     <img src=${cardImage} class="card-img-top content-image">     
                   <div class="content-details fadeIn-bottom">
-                    <a href="${moocLink}" target="_blank"><i class="fa fa-info-circle fa-2x" aria-hidden="true" style="color: white;"></i></a>                                   
+                    <a href="${moocLink}" target="_blank"><i class="fa fa-certificate fa-2x" aria-hidden="true" style="color: white;"></i></a>                                   
                   </div>
                 </div>
                 <div class="card-body">
@@ -139,16 +194,28 @@ document.addEventListener("DOMContentLoaded", showCards);
 const bagdes = document.querySelector(".badges");
 const badgesection = [
   {
-    title: "Python for Data Science",
-    image: "../static/assets/images/certification-page/badge-Python_101_Data_Science.png",
-    description: "Earned Aug 15, 2019",
-    link: "https://www.youracclaim.com/badges/62017a6f-2dd6-4ff6-a615-55d3230ad3ff",
+    title: "Google Cloud Certified Data Engineer",
+    image: "../static/assets/images/certification-page/Data Engineer Badge.png",
+    description: "Earned Sep 15, 2021",
+    link: "https://www.credential.net/5dc11c32-24bd-469b-86a0-d9038c151a4a",
   },
   {
     title: "Karachi.AI Meetup X : Honorable Speaker",
     image: "../static/assets/images/certification-page/badge-Karachi-AI-Association-of-AppliedAI-Practitioners-Karachi-AI-Meetup-X-Honorable-Speaker-2020-08-22.png",
     description: "Earned Aug 21, 2020",
     link: "https://api.au.badgr.io/public/assertions/euJWUoUlTkSqcjarrXpKRg?identity__email=ssuet.se2016%40gmail.com",
+  },
+  {
+    title: "Karachi.AI | Certified Data Analyst (FAST-NU)",
+    image: "../static/assets/images/certification-page/Karachi.AI - Association of Applied AI Practitioners - Karachi.AI  Certified Data Analyst (FAST-NU) - 2021-01-31.png",
+    description: "Earned Jan 31, 2021",
+    link: "https://api.au.badgr.io/public/assertions/UFCBj9iaSDqi84wRU3OmjA?identity__email=ssuet.se2016%40gmail.com",
+  },
+  {
+    title: "Python for Data Science",
+    image: "../static/assets/images/certification-page/badge-Python_101_Data_Science.png",
+    description: "Earned Aug 15, 2019",
+    link: "https://www.youracclaim.com/badges/62017a6f-2dd6-4ff6-a615-55d3230ad3ff",
   },
   {
     title: "Hackmakers DigitalDefence 2020",
@@ -197,7 +264,7 @@ const showCards1 = () => {
         <img class="img-fluid d-block mb-3 mx-auto hvr-grow" src="${image}" alt="Card image cap" width="200">
           <div class="text-center font-weight-bolder" style="font-size: 1.3em;">${title}</div>
           <div class="text-center text-muted font-weight-bolder p-2">${description}</div>
-          <div class="text-center font-weight-bolder" style="box-sizing: content-box; display: flex; align-items: center; justify-content: center; margin: 0; font-size:14px; font-weight: bold; width: 48px; height: 16px; border-radius: 4px; border: solid 1px black; text-decoration: none; margin: 16px 0; color: black;">
+          <div class="text-center font-weight-bolder" style="box-sizing: content-box; display: flex; align-items: center; justify-content: center; margin: 0; font-size:14px; font-weight: bold; width: 48px; height: 16px; border-radius: 4px; border: solid 1px black; text-decoration: none; padding: 6px 16px; margin: 16px 0; color: black;">
             <a href="${link}" target="_blank">Verify</a>
           </div>
       </div>`)

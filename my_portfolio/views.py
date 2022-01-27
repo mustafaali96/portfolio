@@ -12,8 +12,8 @@ def projects_view(request):
 def certification_view(request):
     return render(request, 'certification.html')
 
-def research_view(request):
-    return render(request, 'research.html')
+def publication_view(request):
+    return render(request, 'publication.html')
 
 def education_view(request):
     return render(request, 'education.html')

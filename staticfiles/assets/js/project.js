@@ -134,7 +134,7 @@ const showCards = () => {
     ({ title, cardImage, tags, Previewlink, Githublink }) => {
       (output += `       
     <div class="column skill-card card">
-      <div class="wrapper" style="background: src = ${cardImage} center / cover no-repeat;">
+      <div class="wrapper" style="background: url(${cardImage}) center / cover no-repeat;">
         <div class="header">
         </div>
         <div class="data">

@@ -29,7 +29,7 @@ Well! Take a chill pill. Don't be intimidated by those thoughts. __Awesome Portf
 ### Project Page:
 <p align="center"><img src="./static/readme_assets/Project_Page.gif"></p>
 
-### Research Page:
+### Publication Page:
 <p align="center"><img src="./static/readme_assets/Research_Page.gif"></p>
 
 ### Education Page:

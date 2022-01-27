@@ -42,7 +42,7 @@ let header = $(`
         <li><a class="white-text" href="../Experience">Experience</a></li>
         <li><a class="white-text" href="../Projects">Projects</a></li>
         <li><a class="white-text" href="../Certification">Certification</a></li>
-        <li><a class="white-text" href="../Research">Research</a></li>
+        <li><a class="white-text" href="../Publication">Publication</a></li>
         <li><a class="white-text" href="../Education">Education</a></li>
         <!--TOGGLE FOR LIGHT/DARK MODE-->
         <li>
@@ -70,7 +70,7 @@ let header = $(`
 <li><a href="../Experience">Experience</a></li>
 <li><a href="../Projects">Projects</a></li>
 <li><a href="../Certification">Certification</a></li>
-<li><a href="../Research">Research</a></li>
+<li><a href="../Publication">Publication</a></li>
 <li><a href="../Education">Education</a></li>
 
 <!--TOGGLE FOR LIGHT/DARK MODE-->

@@ -128,6 +128,12 @@ document.addEventListener("DOMContentLoaded", showCards);
 const mentorshipcards = document.querySelector(".mentorship-cards");
 const mentor = [
   {
+    title: "Karachi AI Meetup 14: Low Code No Code",
+    image: "../static/assets/images/experience-page/Karachi-AI-Meetup-14-Low-Code-No-Code.png",
+    time: "15th Jan 2022",
+    desp: "<li>Talked about The Rise of Low Code / No Code in Machine Learning & AI domain in 2022. <a href='https://www.youtube.com/watch?v=1qBPQTZiO1o&' target='_blank'>Youtube link</a> </li><hr /><li>Live implementation of AI model from getting the data to building Machine Learning model, demostrated how to deploy model on cloud Endpoint using Vertex AutoML Vision.</li>",
+  },
+  {
     title: "AI Summit 21 : Data Engineering in Cloud",
     image: "../static/assets/images/experience-page/AISummit21.png",
     time: "3rd Nov 2021",
@@ -143,7 +149,7 @@ const mentor = [
     title: "Karachi AI Meetup # X : Delivering Data Science Applications",
     image: "../static/assets/images/experience-page/karachi-ai-meetup-x.jpg",
     time: "22nd Aug 2020",
-    desp: "<li>A technical and domain knowledge based hands on – coding session where various national and international speakers from IBM, Google and Amazon discussed and presented the approach to deliver data science and machine learning applications via renowned and new cloud frameworks such as StreamLit, PyCaret, Rapid Miner, IBM Watson, Amazon AI, Microsoft Azure, Google ML and many more.</li><hr /><li>Implementation on Google Cloud Machine Learning to deliver end to end application of Data Science & ML</li>",
+    desp: "<li>A technical and domain knowledge based hands on – coding session where various national and international speakers from IBM, Google and Amazon discussed and presented the approach to deliver data science and machine learning applications via renowned and new cloud frameworks such as StreamLit, PyCaret, Rapid Miner, IBM Watson, Amazon AI, Microsoft Azure, Google ML and many more.</li><hr /><li>Implementation on Google Cloud Machine Learning to deliver end to end application of Data Science & ML. <a href='https://www.youtube.com/watch?v=GDXhmkMS6Xc' target='_blank'>Youtube link</a></li>",
   },
   {
     title: "Karachi.AI Ramzan Special Series: Google Cloud Platform",
