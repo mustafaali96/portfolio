@@ -17,7 +17,6 @@ let header = $(`
   <ul class="navbar-nav ml-auto" id = "navbar-content">
    <li class="nav-item"><a class="nav-link" href="../">Home</a></li>
    <li class="nav-item"><a class="nav-link" href="../Experience">Experience</a></li>
-   <li class="nav-item"><a class="nav-link" href="../Projects">Projects</a></li>
    <li class="nav-item"><a class="nav-link" href="../Certification">Certification</a></li>
    <li class="nav-item"><a class="nav-link" href="../Publication">Publication</a></li>
    <li class="nav-item"><a class="nav-link" href="../Education">Education</a></li>
