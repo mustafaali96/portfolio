@@ -194,6 +194,12 @@ document.addEventListener("DOMContentLoaded", showCards);
 const bagdes = document.querySelector(".badges");
 const badgesection = [
   {
+    title: "Karachi.AI | Certified Data Engineer",
+    image: "../static/assets/images/certification-page/Khi-ai-CDE.png",
+    description: "Earned Dec 04, 2021",
+    link: "https://eu.badgr.com/public/assertions/ZmHGptrKS7SIT5S4SsZz3A",
+  },
+  {
     title: "Google Cloud Certified Data Engineer",
     image: "../static/assets/images/certification-page/Data Engineer Badge.png",
     description: "Earned Sep 15, 2021",
