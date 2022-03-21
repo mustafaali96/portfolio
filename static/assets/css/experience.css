@@ -23,14 +23,14 @@ html[data-theme="light"] {
  /* -----Chatbot Section CSS----- */
 .chatbot {
   --df-messenger-bot-message: #878fac;
-  --df-messenger-button-titlebar-color: #49d1fa;
-  --df-messenger-button-titlebar-font-color: white;
+  --df-messenger-button-titlebar-color: #ffffff;
+  --df-messenger-button-titlebar-font-color: #49d1fa;
   --df-messenger-chat-background-color: #eeeded;
   --df-messenger-font-color: white;
   --df-messenger-send-icon: #49d1fa;
   --df-messenger-user-message: #35b327;
   --df-messenger-input-placeholder-font-color: #49d1fa;
-  --df-messenger-minimized-chat-close-icon-color: yellow;
+  --df-messenger-minimized-chat-close-icon-color: #49d1fa;
  }
  
 /*Main section*/
