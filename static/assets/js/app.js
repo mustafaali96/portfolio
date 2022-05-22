@@ -150,10 +150,10 @@ let footer = $(`
           <div class="form-style-6">
             <h6 class="display">Get in Touch</h6>
             <form>
-              <input type="text" name="field1" placeholder="Your Name" />
-              <input type="email" name="field2" placeholder="Email Address" />
-              <textarea name="field3" placeholder="Type your Message"></textarea>
-              <input type="submit" value="Send" />
+              <input type="text" name="name" placeholder="Your Name" />
+              <input type="email" name="email" placeholder="Email Address" />
+              <textarea name="msg" placeholder="Type your Message"></textarea>
+              <input type="submit" />
             </form>
           </div>
         </div>

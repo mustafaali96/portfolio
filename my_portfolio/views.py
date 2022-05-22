@@ -1,19 +1,54 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
+from my_portfolio.models import ContactUs
+from my_portfolio.forms import ContactUsForm
+from django.views.generic import View
+
+def contactUS_data(request):
+    name = request.GET.get('name')
+    email = request.GET.get('email')
+    msg = request.GET.get('msg')
+    ContactUsData = ContactUs(name=name, email=email, msg=msg)
+    ContactUsData.save()
 
 def index_view(request):
-    return render(request, 'index.html')
+    try:
+        contactUS_data(request)
+        return redirect("home")
+    except:
+        return render(request, 'index.html')
+    
 
 def experience_view(request):
-    return render(request, 'experience.html')
+    try:
+        contactUS_data(request)
+        return redirect("experience")
+    except:
+        return render(request, 'index.html')
 
 def projects_view(request):
-    return render(request, 'projects.html')
+    try:
+        contactUS_data(request)
+        return redirect("projects")
+    except:
+        return render(request, 'projects.html')
 
 def certification_view(request):
-    return render(request, 'certification.html')
+    try:
+        contactUS_data(request)
+        return redirect("certification")
+    except:
+        return render(request, 'certification.html')
 
 def publication_view(request):
-    return render(request, 'publication.html')
+    try:
+        contactUS_data(request)
+        return redirect("publication")
+    except:
+        return render(request, 'publication.html')
 
 def education_view(request):
-    return render(request, 'education.html')
+    try:
+        contactUS_data(request)
+        return redirect("education")
+    except:
+        return render(request, 'education.html')

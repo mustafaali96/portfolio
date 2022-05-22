@@ -218,10 +218,28 @@ const badgesection = [
     link: "https://api.au.badgr.io/public/assertions/UFCBj9iaSDqi84wRU3OmjA?identity__email=ssuet.se2016%40gmail.com",
   },
   {
+    title: "Databricks | Sales Ready",
+    image: "../static/assets/images/certification-page/Databricks-Sales-Ready.png",
+    description: "Earned Apr 18, 2022",
+    link: "https://credentials.databricks.com/db1d7c80-73d0-403b-aa18-8482cba1afab",
+  },
+  {
     title: "Python for Data Science",
     image: "../static/assets/images/certification-page/badge-Python_101_Data_Science.png",
     description: "Earned Aug 15, 2019",
     link: "https://www.youracclaim.com/badges/62017a6f-2dd6-4ff6-a615-55d3230ad3ff",
+  },
+  {
+    title: "Reliable Google Cloud Infrastructure: Design and Process",
+    image: "../static/assets/images/certification-page/Reliable-Google-Cloud-Infrastructure.png",
+    description: "Earned Dec 23, 2021",
+    link: "https://partner.cloudskillsboost.google/public_profiles/b9f2452d-beca-46d5-abd0-b448bb9d24d5/badges/1613005",
+  },
+  {
+    title: "Google Cloud Essentials",
+    image: "../static/assets/images/certification-page/Google-Cloud-Essentials.png",
+    description: "Earned Jul 23, 2021",
+    link: "https://partner.cloudskillsboost.google/public_profiles/b9f2452d-beca-46d5-abd0-b448bb9d24d5/badges/1127548",
   },
   {
     title: "Hackmakers DigitalDefence 2020",

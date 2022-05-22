@@ -128,6 +128,18 @@ document.addEventListener("DOMContentLoaded", showCards);
 const mentorshipcards = document.querySelector(".mentorship-cards");
 const mentor = [
   {
+    title: "Karachi AI Cloud Week: Data Engineering with Google Cloud",
+    image: "../static/assets/images/experience-page/Karachi-AI-DE-with-GCP.jpg",
+    time: "14th May 2022",
+    desp: "<li>Delivered Data Engineering with Google Cloud Platform in cloud week at Karachi AI - Certified Data Engineer. Discussed about GCP services for Data Engineering like Pub/Sub, Dataflow, Bigquery, VMs, Cloud Storage, Dataproc, Dataprep.</li><hr /><li>Hands-on Lab to create ETL Processing data pipeline using Dataflow to ingest the from Cloud Storage copied from publicly available dataset into BigQuery tables.</li>",
+  },
+  {
+    title: "IEEE WIE SSUET Productionize ML Model",
+    image: "../static/assets/images/experience-page/SSUET-WIE-Productionize-ML-Model-2022.jpg",
+    time: "18th-20th Apr 2022",
+    desp: "<li>3 days workshop on Productionizing Machine Learning Models, covered basics of AI domain knowledge, Builing Machine Learning Models and creating end to end ML application using Streamlit. <a href='https://github.com/mustafaali96/SSUET-IEEE-WIE-2022' target='_blank'>Github Repo</a></li><hr /><li>Discussed Machine Learning lifecycle, Computer Vision applications and operations, Day 1: <a href='https://fb.watch/d9yLTjngQO/' target='_blank'>Introduction to Artificial Intelligence</a>, Day 2: <a href='https://fb.watch/d9yPMsoFip/' target='_blank'>Building Machine Learning Models</a>,<br />Day 3: <a href='https://fb.watch/d9yRTPF4Q5/' target='_blank'>Deploying Machine Learning Models</a>.</li>",
+  },
+  {
     title: "Karachi AI Meetup 14: Low Code No Code",
     image: "../static/assets/images/experience-page/Karachi-AI-Meetup-14-Low-Code-No-Code.png",
     time: "15th Jan 2022",
