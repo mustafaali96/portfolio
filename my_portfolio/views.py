@@ -1,6 +1,5 @@
 from django.shortcuts import render, redirect
 from my_portfolio.models import ContactUs
-from my_portfolio.forms import ContactUsForm
 from django.views.generic import View
 
 def contactUS_data(request):

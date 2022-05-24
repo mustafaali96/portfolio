@@ -1,0 +1,8 @@
+# Deploy on heroku
+git push heroku master
+
+# Migrate DB changes
+heroku run python manage.py migrate -a mustafa-ali-mir
+
+# Add Git Remote
+heroku git:remote -a mustafa-ali-mir
