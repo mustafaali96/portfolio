@@ -22,7 +22,7 @@ def experience_view(request):
         contactUS_data(request)
         return redirect("experience")
     except:
-        return render(request, 'index.html')
+        return render(request, 'experience.html')
 
 def projects_view(request):
     try:
