@@ -18,19 +18,19 @@ const research = [
         absbox: "absPopup1"
     },
 
-    // {
-    //     title : "A Call for More Rigor in Unsupervised Cross-lingual Learning",
-    //     authors : "Mikel Artetxe, Sebastian Ruder, Dani Yogatama, Gorka Labaka and Eneko Agirre",
-    //     conferences : "The 58th Annual Meeting of the Association for Computational Linguistics",
-    //     researchYr : 2020,
-    //     citebox : "popup2",
-    //     image : "../static/assets/images/research-page/crossLingual.png",
-    //     citation: {
-    //         vancouver: "Mikel Artetxe, Sebastian Ruder, Dani Yogatama, Gorka Labaka and Eneko Agirre. A Call for More Rigor in Unsupervised Cross-lingual Learning. The 58th Annual Meeting of the Association for Computational Linguistics 2020."
-    //     },
-    //     abstract: "This is currently left empty and this can be considered as a dummy data 2",
-    //     absbox: "absPopup2"
-    // },
+    {
+        title : "Invisibility Cloak using Color Extraction and Image Segmentation with OpenCV",
+        authors : "Mustafa Ali, Farheen Qazi, Dr. Muhammad Naseem, Dr. Syed Saood Zia, Dur-e-Shawar Agha, Tauseef Mubeen",
+        conferences : "2022 Global Conference on Wireless and Optical Technologies (GWOIT)",
+        researchYr : 2022,
+        citebox : "popup2",
+        image : "../static/assets/images/research-page/cloak.png",
+        citation: {
+            vancouver: "Mustafa Ali, Farheen Qazi, Dr. Muhammad Naseem, Dr. Syed Saood Zia, Dur-e-Shawar Agha, Tauseef Mubeen. Invisibility Cloak using Color Extraction and Image Segmentation with OpenCV. 2022 Global Conference on Wireless and Optical Technologies (GWOIT)"
+        },
+        abstract: "In the past decade, people's interest in computer vision has grown. Stable multiplication rate boost with powerful computing power every 13 months, face detection and recognition has changed from esoteric concept to popular One of the better and successful applications of computer vision research and image analysis and image analysis Algorithm-based understanding. In our work, we will be detecting contours (shapes) of various geometrical figures in the sample given binary mask extracted from HSV (Hue Saturation Value) range using Python 3.6, Open-Source Computer Vision Library (OpenCV 3x) and Numpy. The very fundamental functions are used for processing the frames, that involves getting live video feed, loading them frame-by-frame, and detecting various shape of red colors inside the live feed frames and segment them with previously saved image with the exact same location. In this paper we discuss three primary problems of computer vision: Finding contours, detection of specified color and segment with another image. We tried state-of-the-art algorithms for these three tasks. HSV color extraction is used to get the mask of desire colored object. In order to get high quality image segmentations results, we applied Morphological operations to refine the mask such as, Opening which removes unnecessary details which in our case are the white region on the boundary of the cloth that is not required, Erosion, Dilatation operation and Gaussian Blurring to smoothen the result. We link this contour detector with Convex Hull, this strategy performs better than our existing image segmentation algorithms on measures of both boundary and segmentation quality. Finally, we replaced pixel value of red color region detected by HSV mask with the pixel value of our background image with the help of bitwise operation to get the augmented result of invisible cloak.",
+        absbox: "absPopup2"
+    },
 
     // {
     //     title : "A Comprehensive Analysis of Preprocessing for Word Representation Learning in Affective Tasks",
